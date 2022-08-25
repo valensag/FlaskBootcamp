@@ -35,8 +35,42 @@ To return the info to the user, we will use <ins>Jinja Template</ins> that grab 
 # Forms
 - To connect a label with a input box use the id
 ```
-<label for="emailtag"></label>
- <input id = "emailtag" type="email" name="" value="">
+<form action="http://www.google.com" method="GET">
+    <label for="emailtag">Email:</label>
+    <input id = "emailtag" type="email" name="useremail" placeholder="Email Here">
+    <br>
+    <br>
+    <label for="passtag">Password:</label>
+    <input id = "passtag" type="password" name="userpassword" placeholder="Password">
+    <br>
+    <br>
+    <input type="submit" value="submit">
+</form>
+```
+
+- Link Radio Button
+- Drop down Menu
+- Text area inputs
+
+```
+<form method="get">
+        <h3>Do you already own a dog?</h3>
+        <label for="yes">Yes:</label>
+        <input type="radio" id = "yes" name="dog_choice" value="yes">
+        <label for="no">No:</label>
+        <input type="radio" id = "no" name="dog_choice" value="no">
+
+        <p>How clean is your house= (1-3)</p>
+        <select name="stars" id="">
+            <option value="Great">3</option>
+            <option value="Good">2</option>
+            <option value="Bad">1</option>
+        </select>
+
+        <p>Any other comments?</p>
+        <textarea name="name" id="" cols="80" rows="8"></textarea>
+        <br>
+        <input type="submit" value="Submit Feedback">
 ```
 
 
