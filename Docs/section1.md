@@ -34,7 +34,7 @@ To return the info to the user, we will use <ins>Jinja Template</ins> that grab 
 
 # Forms
 - To connect a label with a input box use the id
-```
+```html
 <form action="http://www.google.com" method="GET">
     <label for="emailtag">Email:</label>
     <input id = "emailtag" type="email" name="useremail" placeholder="Email Here">
@@ -52,7 +52,7 @@ To return the info to the user, we will use <ins>Jinja Template</ins> that grab 
 - Drop down Menu
 - Text area inputs
 
-```
+```html
 <form method="get">
         <h3>Do you already own a dog?</h3>
         <label for="yes">Yes:</label>
@@ -73,5 +73,57 @@ To return the info to the user, we will use <ins>Jinja Template</ins> that grab 
         <input type="submit" value="Submit Feedback">
 ```
 
+# CSS Introduction
 
+- Link your css file into your html (in the head section) 
+
+```html
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/00-HTML-CSS-Bootstrap/02-CSS/master.css">
+</head>
+```
+
+- Style the tags
+
+```css
+h1 {
+    color:blue;
+}
+li {
+    color:rgb(30,200,0);
+}
+p {
+    color:#eab01c;
+}
+h3 {
+    color: rgba(100,20,24)
+}
+```
+
+# Backgrounds and Boders
+
+- Add an image as background
+```css
+body {
+    background: url(https://assets.pokemon.com/static2/_ui/img/chrome/external_link_bumper.png);
+    background-repeat: no-repeat;
+}
+```
+- Add a specific style to a div (rectangle of all the line) and span(just a word inside the div)
+```css
+div {
+    background: lightblue;
+    border: lightsalmon;
+    border-width: thick;
+    border-style: dotted;
+}
+
+span {
+    background: lightcoral;
+}
+```
  
