@@ -1,0 +1,28 @@
+h1 {
+    color:blue;
+}
+
+li {
+    color:rgb(30,200,0)
+}
+
+h3 {
+    color: rgba(100,20,240,0)
+}
+
+body {
+    
+    background: url(https://assets.pokemon.com/static2/_ui/img/chrome/external_link_bumper.png);
+    background-repeat: no-repeat;
+}   
+
+div {
+    background: lightblue;
+    border: lightsalmon;
+    border-width: thick;
+    border-style: dotted;
+}
+
+span {
+    background: lightcoral;
+}
